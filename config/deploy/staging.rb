@@ -1,3 +1,6 @@
+server '139.59.254.143', user: 'deploy', roles: %w{app web db}
+set :deploy_to, '/home/deploy/staging'
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
