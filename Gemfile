@@ -50,5 +50,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem 'capistrano', '~> 3.17', '>= 3.17.3', require: false
 end
 
