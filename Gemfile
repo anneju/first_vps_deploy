@@ -52,5 +52,10 @@ group :development do
   # gem "spring"
 
   gem 'capistrano', '~> 3.17', '>= 3.17.3', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-passenger', require: false
+  gem 'ed25519', '>= 1.2', '< 2.0', require: false
+  gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0', require: false
 end
 
